@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Form Pendaftaran</title>
+  <title>Percobaan 7 - Form Pendaftaran Mahasiswa</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -39,8 +39,8 @@
   </style>
 </head>
 <body>
-  <h2>Form Pendaftaran Mahasiswa</h2>
-  <form method="POST" action="proses.php">
+  <h2>Percobaan 7: Form Tambah Mahasiswa</h2>
+  <form method="POST" action="data_mahasiswa.php">
     <div class="form-group">
       <label>NIM:</label>
       <input type="text" name="nim" required>
@@ -70,7 +70,7 @@
       <label>Alamat:</label>
       <textarea name="alamat" rows="3" required></textarea>
     </div>
-    <button type="submit">Daftar</button>
+    <button type="submit">Simpan Data</button>
   </form>
 </body>
 </html>
